@@ -113,36 +113,36 @@
                 <Chart {options} highcharts={Highcharts} />
             </div>
             <p class="chart-caption">
-                This chart displays Bachelor's degree attainment rates specifically for females, broken down by race and ethnicity, from 2011 to 2023.
+                This chart shows Bachelor's degree attainment rates specifically for females, broken up by race and ethnicity, from 2011 to 2023.
             </p>
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                <h3>Focusing on Females: Attainment Trends</h3>
+                <h3>Focusing on females</h3>
                 <p>
-                    Analyzing Bachelor's degree attainment rates for females reveals distinct patterns within racial and ethnic groups, reflecting unique educational journeys and challenges.
+                    Looking at the Bachelor's degree attainment rates for females specifically shows patterns within racial and ethnic groups, as well as educational journeys and challenges they may face.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>White and Asian Females Lead in Higher Education</h3>
+                <h3>White and Asian Females</h3>
                 <p>
-                    Similar to the overall population, **White females** consistently show high rates of Bachelor's degree attainment, reaching approximately **{dataFemaleWhite[dataFemaleWhite.length - 1]}%** by 2023. **Asian females** maintain the highest rates, peaking around **{dataFemaleAsian[dataFemaleAsian.length - 1]}%** in the same period.
+                    Similar to the overall population, White females consistently show high rates of Bachelor's degree attainment, reaching about {dataFemaleWhite[dataFemaleWhite.length - 1]}% by 2023. Asian females maintain the highest rates, at about {dataFemaleAsian[dataFemaleAsian.length - 1]}% in the same period.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Gaps Persist for Black and Hispanic Females</h3>
+                <h3>Black and Hispanic Females</h3>
                 <p>
-                    Despite progress, significant disparities remain for **Black** and **Hispanic females**. In 2023, Bachelor's attainment rates were around **{dataFemaleBlack[dataFemaleBlack.length - 1]}%** for Black females and **{dataFemaleHispanic[dataFemaleHispanic.length - 1]}%** for Hispanic females. These figures underscore ongoing equity challenges in higher education access and completion for these groups.
+                    Despite progress, there are still disparities for Black and Hispanic females. In 2023, Bachelor's attainment rates were around {dataFemaleBlack[dataFemaleBlack.length - 1]}% for Black females and {dataFemaleHispanic[dataFemaleHispanic.length - 1]}% for Hispanic females. These rates show that there are still equity challenges in higher education access and completion for these groups.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Implications for Wealth Equity</h3>
+                <h3>Wealth Equity</h3>
                 <p>
-                    Educational attainment is a critical factor in long-term economic mobility and wealth accumulation. The persistent gaps in Bachelor's degree attainment for Black and Hispanic females highlight a key area where systemic efforts are needed to foster greater racial wealth equity.
+                    Educational attainment is an extremely important factor in long-term economic mobility and wealth accumulation. The continued gaps in Bachelor's degree attainment for Black and Hispanic females shows an area where systemic efforts are needed to lead to greater racial wealth equity.
                 </p>
             </ArticleText>
         {/snippet}

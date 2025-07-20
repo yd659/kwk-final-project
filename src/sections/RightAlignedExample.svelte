@@ -103,39 +103,39 @@
                 <Chart {options} highcharts={Highcharts} />
             </div>
             <p class="chart-caption">
-                This chart illustrates the percentage of individuals aged 25 and older who have attained a Bachelor's degree or higher, broken down by race and ethnicity, nationwide from 2011 to 2023. This data represents the total population (all sexes).
+                This chart illustrates the percentage of individuals aged 25 and older who have attained a Bachelor's degree or higher, by race and ethnicity, nationwide from 2011 to 2023.
             </p>
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                <h3>The Broader Picture: Bachelor's Degree Attainment</h3>
+                <h3>Bachelor's Degree Attainment</h3>
                 <p>
-                    While high school completion rates show broad gains, achieving a Bachelor's degree or higher reveals more significant disparities across racial and ethnic groups in the U.S. from 2011 to 2023.
+                    Achieving a Bachelor's degree or higher shows more significant disparities across racial and ethnic groups in the U.S. from 2011 to 2023 than for high school degrees.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Leading Attainment: Asian and White Populations</h3>
+                <h3>Asian and White Populations</h3>
                 <p>
-                    As of 2023, the **White** population shows an attainment rate of approximately **{dataWhite[dataWhite.length - 1]}%** for a Bachelor's degree or higher. The **Asian** population consistently maintains the highest attainment rate, reaching around **{dataAsian[dataAsian.length - 1]}%** in the same year. This indicates a strong prevalence of higher education within these groups.
+                    As of 2023, the White population shows an attainment rate of about {dataWhite[dataWhite.length - 1]}% for a Bachelor's degree or higher and the Asian population consistently maintains the highest attainment rate, around {dataAsian[dataAsian.length - 1]}% in 2023 as well. This indicates high levels of higher education within these races.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Persistent Gaps: Black and Hispanic Populations</h3>
+                <h3>Black and Hispanic Populations</h3>
                 <p>
-                    In contrast, the **Black** and **Hispanic** populations show considerably lower Bachelor's degree attainment rates. In 2023, the rate for the **Black** population was about **{dataBlack[dataBlack.length - 1]}%**, while for the **Hispanic** population it was around **{dataHispanic[dataHispanic.length - 1]}%**. These figures are less than half of the rates observed for White and Asian individuals.
+                    In contrast, the Black and Hispanic populations show lower Bachelor's degree attainment rates. In 2023, the rate for the Black population was about {dataBlack[dataBlack.length - 1]}%, while for the Hispanic population it was around {dataHispanic[dataHispanic.length - 1]}%. These rates are less than half of the rates observed for the White and Asian populations as a whole.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Modest Growth, Large Disparities</h3>
+                <h3>Disparities</h3>
                 <p>
-                    Although all groups have seen some increase in Bachelor's degree attainment since 2011, the relative gaps have largely persisted. For example, the **Hispanic** population's rate grew from approximately **{dataHispanic[0]}%** in 2011 to **{dataHispanic[dataHispanic.length - 1]}%** in 2023, showing progress but highlighting the significant distance to equity.
+                    All groups have had an increase in Bachelor's degree attainment since 2011, but the relative gaps have continued to exist. For example, the Hispanic population's rate grew from about {dataHispanic[0]}% in 2011 to {dataHispanic[dataHispanic.length - 1]}% in 2023. This shows progress, but that we are still far from equity.
                 </p>
                 <p>
-                    Understanding these disparities is crucial for addressing long-standing inequities in wealth and opportunity.
+                    Understanding these disparities between races is very important in order to address long-standing inequities in wealth and opportunity. for certain races and ethnicities.
                 </p>
             </ArticleText>
         {/snippet}
@@ -146,10 +146,9 @@
     /* Chart container styling - simplified */
     .chart-container {
         width: 100%; /* Make it fill its parent */
-        max-width: 600px; /* Optional: Set a max width for larger screens */
-        height: 400px; /* Keep fixed height for chart */
-        margin: 20px auto; /* Center the chart */
-        /* Removed border, box-shadow, padding for simplicity. Add back if desired. */
+        max-width: 600px; /* max width for larger screens */
+        height: 400px; /* fixed height for chart */
+        margin: 20px auto; /* center the chart */
     }
 
     /* Chart caption styling */

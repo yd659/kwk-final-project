@@ -104,36 +104,36 @@
                 <Chart {options} highcharts={Highcharts} />
             </div>
             <p class="chart-caption">
-                This chart illustrates the percentage of individuals aged 25 and older who have attained a High School diploma or higher, broken down by race and ethnicity, nationwide from 2011 to 2023. This data represents the total population (all sexes).
+                This chart shows the percentage of individuals aged 25 and older who have attained a High School diploma or higher, broken down by race and ethnicity, nationwide from 2011 to 2023.
             </p>
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                <h3>Foundational Education: High School Completion</h3>
+                <h3>Foundational Education</h3>
                 <p>
-                    Examining high school completion rates provides insight into foundational educational attainment across different racial and ethnic groups in the U.S. from 2011 to 2023.
+                    Examining high school completion rates shows insight into foundational educational attainment across different racial and ethnic groups in the U.S.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>High Attainment for White and Asian Populations</h3>
+                <h3>White and Asian Populations</h3>
                 <p>
-                    The **White** and **Asian** populations consistently show the highest rates of high school completion or higher, both remaining above 90% throughout the period. By 2023, the White population reached approximately **{dataHSWhite[dataHSWhite.length - 1]}%** and the Asian population reached **{dataHSAsian[dataHSAsian.length - 1]}%**.
+                    The White and Asian populations consistently show the highest rates of high school completion or higher, both being above 90% throughout the period. By 2023, the White population reached about {dataHSWhite[dataHSWhite.length - 1]}% and the Asian population reached {dataHSAsian[dataHSAsian.length - 1]}%.
                 </p>
             </ArticleText>
 
             <ArticleText>
                 <h3>Significant Progress for Black and Hispanic Populations</h3>
                 <p>
-                    While still lagging behind White and Asian groups, the **Black** and **Hispanic** populations have made significant progress in high school attainment. The Black population's rate rose to approximately **{dataHSBlack[dataHSBlack.length - 1]}%** by 2023, and the Hispanic population's rate increased to about **{dataHSHispanic[dataHSHispanic.length - 1]}%**.
+                    While still being behind White and Asian groups in high school degree attainment, the Black and Hispanic populations have made significant progress. The Black population's rate rose to about {dataHSBlack[dataHSBlack.length - 1]}% by 2023, and the Hispanic population's rate increased to about {dataHSHispanic[dataHSHispanic.length - 1]}%.
                 </p>
             </ArticleText>
 
             <ArticleText>
                 <h3>Closing the Gaps</h3>
                 <p>
-                    The consistent increase across all groups signifies a positive trend in access to and completion of basic education. Continued efforts are essential to ensure these gains translate into equitable opportunities for all.
+                    The consistent increase across all groups shows a positive trend in access to and completion of basic education. Continued efforts are crucial to make sure that these gains become equitable opportunities for all.
                 </p>
             </ArticleText>
         {/snippet}

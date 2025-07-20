@@ -102,36 +102,36 @@
                 <Chart {options} highcharts={Highcharts} />
             </div>
             <p class="chart-caption">
-                This chart displays Bachelor's degree attainment rates specifically for males, broken down by race and ethnicity, from 2011 to 2023.
+                This chart shows Bachelor's degree attainment rates specifically for males, broken up by race and ethnicity, from 2011 to 2023.
             </p>
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                <h3>Delving into Male Attainment: Higher Education</h3>
+                <h3>Focusing on males</h3>
                 <p>
-                    Examining Bachelor's degree attainment among males reveals distinct trends and persistent disparities across racial and ethnic lines.
+                    Looking at Bachelor's degree attainment rates among males shows distinct trends between various races and ethnicities.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>White Males Show Highest Rates</h3>
+                <h3>White Males</h3>
                 <p>
-                    The **White male** population consistently shows the highest Bachelor's degree attainment rates, reaching approximately **{dataMaleWhite[dataMaleWhite.length - 1]}%** by 2023. This highlights a prevalent trend of higher education completion within this demographic.
+                    The White male population consistently shows the highest Bachelor's degree attainment rates, reaching about {dataMaleWhite[dataMaleWhite.length - 1]}% by 2023. This shows a trend of higher education completion within this demographic.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Gaps for Black and Hispanic Males</h3>
+                <h3>Black and Hispanic Males</h3>
                 <p>
-                    Similar to the overall and female trends, **Black** and **Hispanic males** face significant disparities in Bachelor's degree attainment. In 2023, the rate for **Black males** was around **{dataMaleBlack[dataMaleBlack.length - 1]}%**, and for **Hispanic males**, it was approximately **{dataMaleHispanic[dataMaleHispanic.length - 1]}%**. These figures are substantially lower than those for White and Asian males.
+                    Similar to the overall population and female trends, Black and Hispanic males face significant disparities in Bachelor's degree attainment. In 2023, the rate for Black males was around {dataMaleBlack[dataMaleBlack.length - 1]}%, and for Hispanic males, it was about {dataMaleHispanic[dataMaleHispanic.length - 1]}%. These rates are a lot lower than those for White males.
                 </p>
             </ArticleText>
 
             <ArticleText>
-                <h3>Understanding Intersectional Disparities</h3>
+                <h3>Understanding Disparities</h3>
                 <p>
-                    When comparing male and female attainment, it's evident that while overall trends for some groups may be similar, the magnitude of disparities can vary. Understanding these intersectional differences by both race and sex is vital for developing targeted interventions to foster educational equity.
+                    When comparing male and female degree attainment rates, it is clear that while overall trends for some groups may be similar, the extent of disparities can vary. Understanding these intersectional differences by both race and sex is very important for developing targeted solutions for educational equity.
                 </p>
             </ArticleText>
         {/snippet}
