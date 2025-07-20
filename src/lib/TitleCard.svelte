@@ -11,7 +11,7 @@
 
 <style>
     .title-card {
-        background-color: #007052;
+        background-color: #000000;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -19,23 +19,23 @@
         text-align: center;
         padding: 2rem;
         box-sizing: border-box;
-        font-family: "Inter", sans-serif;
+        font-family: "Georgia", serif;
     }
 
     .content {
         max-width: 700px;
-        background-color: #034c36;
+        background-color: #808080;
         padding: 2rem;
-        border: 6px solid #e3ff00;
+        border: 6px solid #F0F8FF;
         border-radius: 2rem;
-        box-shadow: 16px 16px #188f70;
+        box-shadow: 16px 16px #000000;
     }
 
     h1 {
         font-size: 3rem;
         margin: 0;
-        color: #e3ff00;
-        text-shadow: 1px 1px 0 #007052;
+        color: #F0F8FF;
+        text-shadow: 1px 1px 0 #000000;
     }
 
     p {
