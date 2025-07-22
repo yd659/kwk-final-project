@@ -20,3 +20,4 @@ Run `npm install` and then `npm run dev` to spin up the project locally. Then, s
 
 ## Credit
 Repo created using vite (`npm create vite@6`)
+Used AI to help with learning to generate the graphs using highcharts and for some of the formatting errors I was having.

@@ -99,7 +99,7 @@
 </script>
 
 <div>
-    <Scroller layout="right"> {#snippet sticky()}
+    <Scroller layout="left"> {#snippet sticky()}
             <div class="chart-container">
                 <Chart {options} highcharts={Highcharts} />
             </div>
